@@ -1,0 +1,109 @@
+.Aside{
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 50px; */
+}
+
+/* img */
+.side-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-shadow: 1px 1px 5px rgb(136, 136, 136);
+    margin-bottom: 30px;
+    
+}
+.side-img img {
+    width: 330px;
+    height: 330px;
+    border-radius: 20px;
+}
+
+/* info */
+.school-number{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;  
+    box-shadow: 1px 1px 5px rgb(136, 136, 136);
+    border-radius: 10px;
+}
+.school-number1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+.school-number2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* button */
+.school-btn{
+    background-color: rgba(97, 97, 228, 0.798);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 600px){
+    .Aside{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .side-img{
+
+        border-radius: 10px;
+        padding: 10px 10px;
+        box-shadow: 1px 1px 5px rgb(136, 136, 136);
+        margin-bottom: 30px;
+        
+    }
+    .side-img img {
+        width: 240px;
+        height: 220px;
+        border-radius: 20px;
+    }
+    .school-number1 {
+        display: flex;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    .school-number2 {
+        display: flex;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .Aside{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .side-img{
+
+        border-radius: 10px;
+        padding: 10px 10px;
+        box-shadow: 1px 1px 5px rgb(136, 136, 136);
+        margin-bottom: 30px;
+        
+    }
+    .side-img img {
+        width: 240px;
+        height: 220px;
+        border-radius: 20px;
+    }
+    .school-number1 {
+        display: flex;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    .school-number2 {
+        display: flex;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: vazir;
+    font-weight: 300;
+    src: url(./font/vazir-font-v16.1.0/Vazir-Medium.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: vazir;
+}
+.school-firstsection{
+    display: flex;
+    padding: 80px;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 1000px) {
+    .school-firstsection{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 80px;
+        height: 100vh;
+        background-color: #f5f5f5;
+    }
+    
+}
